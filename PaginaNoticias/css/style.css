@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    height: 100px;
+    width: 100%;
+    max-width: 1440px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar-desktop ul {
+    display: flex;
+}
+
+.navbar-desktop li{
+    margin: 0 15px;
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
